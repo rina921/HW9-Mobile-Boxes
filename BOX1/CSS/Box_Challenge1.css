@@ -1,0 +1,126 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+.mobile-dropdown {
+	display: none;
+	padding: 15px 30px;
+	color: #fff;
+	background-color: #000;
+}
+
+
+
+nav {
+/*	padding: 5px;*/
+/*	line-height: 20px;*/
+/*	margin: auto;*/
+	border: 5px solid black;
+/*	height: 70px;*/
+
+
+}
+
+nav ul {
+
+	overflow: hidden;
+	list-style-type: none;
+	padding: 10px;
+}
+
+nav li {
+	float: left;
+	border: 1px solid black;
+	width: 15%;
+	height: 50px;
+	margin-right: .5%;
+}
+
+#hiddenbutton {
+	display: none;
+
+}
+
+
+.first {
+	border: 3px solid black;
+	width: 98%;
+	padding: 55px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+
+.second nav {
+	list-style-type: none;
+}
+
+
+
+.second li {
+	float: left;
+	border: 3px solid black;
+	width: 20%;
+	margin-right: 5%;
+	padding: 45px;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+
+footer {
+	float: left;
+	border: 3px solid black;
+	width: 98%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.footer1 {
+	float: left;
+	border: 3px solid black;
+	width: 25%;
+	margin-right: 2%;
+	margin-left: 5%;
+	padding: 35px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+	#hiddenbutton {
+		display: block;
+		float: right;
+	}
+
+	.button {
+		display: none;
+	}
+	.secondbutton {
+		display: block;
+	}
+	.second li {
+		width: 96%;
+		margin: 2%;
+		margin-left: -4%;
+
+	}
+	#haha {
+		display: none;
+	}
+	footer {
+		width: 96%;
+
+	}
+	.footer1 {
+		width: 96%;
+		margin-left: 2%;
+		margin-top: 1%;
+		padding: 8%;
+	}
+}
